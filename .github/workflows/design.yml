@@ -1,0 +1,31 @@
+name: Create PR from design to main
+
+on:
+  push:
+    branches:
+      - design
+    paths:
+      - 'tokens.json'
+      
+jobs:
+  createPullRequest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: Run Token Transformer
+        run: |
+            npx token-transformer tokens.json ./src/global.json global
+            git config --global user.name "grayashh" 
+            git config --global user.email "k_2684@naver.com"
+            git add .
+            git commit -m '피그마 디자인 파일 변환'
+            git push
+        env: 
+            GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      - name: Create Pull Request
+        run: gh pr create -B main -H design --title '[Design] 디자인 토큰 업데이트' --body '디자인 토큰 업데이트 후 변환작업을 수행'
+        env:
+            GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
