@@ -17,7 +17,7 @@ jobs:
           node-version: 16
       - name: Run Token Transformer
         run: |
-            npx token-transformer tokens.json ./src/global.json global
+            npx token-transformer tokens.json ./src/theme.json theme
             git config --global user.name "grayashh" 
             git config --global user.email "k_2684@naver.com"
             git add .
