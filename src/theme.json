@@ -79,63 +79,63 @@
       "type": "color"
     }
   },
-  "classcope-blue": {
-    "blue-5": {
+  "primary": {
+    "classcope-blue-5": {
       "value": "#678afe",
       "type": "color"
     },
-    "blue-4": {
+    "classcope-blue-4": {
       "value": "#7795fe",
       "type": "color"
     },
-    "blue-3": {
+    "classcope-blue-3": {
       "value": "#90a9fe",
       "type": "color"
     },
-    "blue-2": {
+    "classcope-blue-2": {
       "value": "#acbfff",
       "type": "color"
     },
-    "blue-1": {
+    "classcope-blue-1": {
       "value": "#cdd8ff",
       "type": "color"
     },
-    "blue-0": {
+    "classcope-blue-0": {
       "5": {
         "value": "#e5ebff",
         "type": "color"
       }
     }
   },
-  "classcope-purple": {
-    "purple-5": {
+  "secondary": {
+    "classcope-purple-5": {
       "value": "#8d70ff",
       "type": "color"
     },
-    "purple-4": {
+    "classcope-purple-4": {
       "value": "#9980ff",
       "type": "color"
     },
-    "purple-3": {
+    "classcope-purple-3": {
       "value": "#b4a1ff",
       "type": "color"
     },
-    "purple-2": {
+    "classcope-purple-2": {
       "value": "#c7b9ff",
       "type": "color"
     },
-    "purple-1": {
+    "classcope-purple-1": {
       "value": "#ded6ff",
       "type": "color"
     },
-    "purple-0": {
+    "classcope-purple-0": {
       "5": {
         "value": "#ebe5ff",
         "type": "color"
       }
     }
   },
-  "search-shadow": {
+  "search": {
     "value": {
       "color": "#cdd8ff3d",
       "type": "dropShadow",
@@ -146,7 +146,7 @@
     },
     "type": "boxShadow"
   },
-  "search-shadow-pressed": {
+  "search-pressed": {
     "value": {
       "color": "#acbfff73",
       "type": "dropShadow",
@@ -157,7 +157,7 @@
     },
     "type": "boxShadow"
   },
-  "card-shadow": {
+  "card": {
     "value": {
       "color": "#6c6c8005",
       "type": "dropShadow",
@@ -190,7 +190,7 @@
     },
     "type": "boxShadow"
   },
-  "header-shadow": {
+  "header": {
     "value": {
       "color": "#6c6c8070",
       "type": "dropShadow",
@@ -339,14 +339,18 @@
   },
   "letterSpacing": {
     "0": {
-      "value": -0.6,
+      "value": "-2%",
       "type": "letterSpacing"
     },
     "1": {
-      "value": "-3%",
+      "value": -0.6,
       "type": "letterSpacing"
     },
     "2": {
+      "value": "-3%",
+      "type": "letterSpacing"
+    },
+    "3": {
       "value": "0%",
       "type": "letterSpacing"
     }
@@ -368,7 +372,7 @@
         "fontWeight": "Bold",
         "lineHeight": 48,
         "fontSize": 40,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-2%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -382,7 +386,7 @@
         "fontWeight": "SemiBold",
         "lineHeight": 48,
         "fontSize": 40,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-2%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -398,7 +402,7 @@
         "fontWeight": "Bold",
         "lineHeight": 43,
         "fontSize": 36,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-2%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -412,7 +416,7 @@
         "fontWeight": "SemiBold",
         "lineHeight": 43,
         "fontSize": 36,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-2%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -428,7 +432,7 @@
         "fontWeight": "Bold",
         "lineHeight": 36,
         "fontSize": 30,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-2%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -442,7 +446,7 @@
         "fontWeight": "SemiBold",
         "lineHeight": 46,
         "fontSize": 30,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-2%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -456,7 +460,7 @@
         "fontWeight": "Medium",
         "lineHeight": 36,
         "fontSize": 30,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-2%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -472,7 +476,7 @@
         "fontWeight": "Bold",
         "lineHeight": 30,
         "fontSize": 24,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-2%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -486,7 +490,7 @@
         "fontWeight": "SemiBold",
         "lineHeight": 30,
         "fontSize": 24,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-2%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -500,7 +504,7 @@
         "fontWeight": "Medium",
         "lineHeight": 30,
         "fontSize": 24,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-2%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -516,7 +520,7 @@
         "fontWeight": "Bold",
         "lineHeight": 24,
         "fontSize": 20,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-2%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -530,7 +534,7 @@
         "fontWeight": "SemiBold",
         "lineHeight": 24,
         "fontSize": 20,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-2%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -544,7 +548,7 @@
         "fontWeight": "Medium",
         "lineHeight": 24,
         "fontSize": 20,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-2%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -560,7 +564,7 @@
         "fontWeight": "ExtraBold",
         "lineHeight": 23,
         "fontSize": 18,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-2%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -574,7 +578,7 @@
         "fontWeight": "Bold",
         "lineHeight": 23,
         "fontSize": 18,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-2%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -588,7 +592,7 @@
         "fontWeight": "SemiBold",
         "lineHeight": "23%",
         "fontSize": 18,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-2%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -646,7 +650,7 @@
         "fontWeight": "SemiBold",
         "lineHeight": 24,
         "fontSize": 16,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-3%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -676,7 +680,7 @@
         "fontWeight": "ExtraBold",
         "lineHeight": 18,
         "fontSize": 14,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-3%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -690,7 +694,7 @@
         "fontWeight": "SemiBold",
         "lineHeight": 18,
         "fontSize": 14,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-3%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -734,7 +738,7 @@
         "fontWeight": "Bold",
         "lineHeight": 14,
         "fontSize": 12,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-3%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -748,7 +752,7 @@
         "fontWeight": "SemiBold",
         "lineHeight": 14,
         "fontSize": 12,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-3%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -762,7 +766,7 @@
         "fontWeight": "Medium",
         "lineHeight": 14,
         "fontSize": 12,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-3%",
         "paragraphSpacing": 5,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -778,7 +782,7 @@
         "fontWeight": "SemiBold",
         "lineHeight": 12,
         "fontSize": 10,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-3%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -808,7 +812,7 @@
         "fontWeight": "Bold",
         "lineHeight": 10,
         "fontSize": 8,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-3%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -822,7 +826,7 @@
         "fontWeight": "SemiBold",
         "lineHeight": 10,
         "fontSize": 8,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-3%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
@@ -836,7 +840,7 @@
         "fontWeight": "Medium",
         "lineHeight": 10,
         "fontSize": 8,
-        "letterSpacing": -0.6,
+        "letterSpacing": "-3%",
         "paragraphSpacing": 0,
         "paragraphIndent": "0px",
         "textCase": "none",
